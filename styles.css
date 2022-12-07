@@ -1,0 +1,327 @@
+body {
+    background-color: #002147;
+    font-family: Serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b0b0b0;
+  margin-bottom: 40px;
+}
+
+li {
+  float: left;
+  margin-left: 30px;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  padding-top: 30px;
+  text-decoration: none;
+  color: #07006c;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  text-decoration: underline;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 50px;
+}
+
+.s1image {
+    padding: 20px;
+    margin: 50px;
+    
+}
+
+img {
+  width: 470px;
+}
+
+.s1text {
+    color: black;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.bigHeading {
+  font-size: 75px;
+  letter-spacing: 3px;
+}
+
+.midHeading {
+  font-size: 30px;
+}
+
+.regText {
+  font-size: 20px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    /*border: 3px solid #07006c;*/
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    /*margin: 30px;*/
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+.contactIntro {
+  text-align: center;
+  font-size: 20px;
+}
+
+.smallHeading {
+  font-size: 30px;
+}
+
+label {
+  font-size: 18px;
+}
+
+.inputbox {
+  margin: 10px;
+}
+
+.submitBox {
+  display: flex;
+  justify-content: center;
+}
+
+.submitBtn {
+  padding: 10px;
+  background-color: #002147;
+  color: white;
+}
+
+.submitBtn:hover {
+  background-color: #1f197a;
+  font-weight: bold;
+}
+
+.social-footer {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-info {
+  color: white;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 60px;
+  padding-bottom: 12px;
+  border-bottom: 1.2px solid white;
+}
+
+.fText1 {
+  font-size: 20px;
+}
+
+.icons {
+    background-color: transparent;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 2.0rem;
+  width: 40px;
+  color: white;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: black;
+  transition: color 0.3s ease-in;
+}
+
+.gitHub {
+  color: white;
+}
+
+
+/**/
+/**/
+/**/
+.home1Page {
+  background-color: black;
+  color: white;
+  background-image: linear-gradient(
+	to right,
+	#462523 0,
+  #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 48%,
+	#f6e27a 51%,
+	#cb9b51 68%,
+	#462523 100%
+	);
+}
+
+.h1nav ul {
+  background-color: black;
+ }
+
+.h1nav li a {
+  color: transparent;
+}
+
+.home1, .home1_2 {
+  /*background-color: black !important;*/
+  /*border: none;*/
+  /*color: white;*/
+  
+  background-color: white !important;
+  border: none;
+  color: black;
+  margin: 30px;
+}
+
+.h1text {
+  /*color: white;*/
+  color: black;
+   background-image: linear-gradient(
+	to right,
+  #cb9b51 0, 
+	#f6e27a 35%,
+	#f6f2c0 48%,
+	#f6e27a 60%,
+	#cb9b51 100%
+	);
+	/*color:transparent;*/
+   -webkit-background-clip:text;
+}
+
+.h1heading {
+   background-image: linear-gradient(
+	to right,
+	#462523 0,
+  #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 48%,
+	#f6e27a 51%,
+	#cb9b51 68%,
+	#462523 100%
+	);
+	color:transparent;
+   -webkit-background-clip:text;
+}
+
+.profile_pic_h1 {
+  width: 300px;
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.s1image {
+    margin: 0px;
+}
+
+img {
+  width: 300px;
+}
+
+.s1text {
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.bigHeading {
+  font-size: 65px;
+  letter-spacing: 3px;
+}
+
+.midHeading {
+  font-size: 25px;
+}
+
+.regText {
+  font-size: 15px;
+}
+
+.section2 {
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.contactIntro {
+  font-size: 18px;
+}
+
+.smallHeading {
+  font-size: 25px;
+}
+
+label {
+  font-size: 18px;
+}
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .section1 {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px;
+    }
+    
+    .s1image {
+        margin: 0px;
+    }
+    
+    img {
+      width: 350px;
+    }
+    
+    .s1text {
+        text-align: center;
+        padding: 20px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    .section2 {
+        margin: 40px;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+}
+
+.left {
+    background-color: #002147;
+    height: 800px;
+    flex: .5;
+    padding: 30px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.bigText {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.midText {
+    font-size: 35px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.regText {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.right {
+    flex: 1;
+    background-image: url("images/DTProfile1.jpg");
+
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .6;
+}
+
+.social-footer {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-info {
+  color: #002147;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 60px;
+  padding-bottom: 12px;
+  border-bottom: 1.2px solid #002147;
+}
+
+.fText1 {
+  font-size: 20px;
+}
+
+.icons {
+    background-color: transparent;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 2.0rem;
+  width: 40px;
+  color: #002147;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: gray;
+  transition: color 0.3s ease-in;
+}
